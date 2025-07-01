@@ -1,5 +1,7 @@
+
 import React, { useState } from 'react';
 import ListComponent from './components/ListComponent';
+import './App.css';
     const App = () => {
       const [characters, setCharacters] = useState([]);
       const [loading, setLoading] = useState(true);
